@@ -3,8 +3,8 @@
   env_file:
     - ./app.env
   ports:
-    - "26900-26902"
-    - "26900-26902/udp"
+    - "26900-26902:26900-26902"
+    - "26900-26902/udp:26900-26902/udp"
   volumes:
     - /mnt/data/7dtd/steamcmd:/home/steam/steamcmd
     - /mnt/data/7dtd/app:/home/steam/app
