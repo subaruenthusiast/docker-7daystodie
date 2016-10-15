@@ -1,4 +1,4 @@
-FROM zobees/steamcmd:0.0.1
+FROM zobees/steamcmd:latest
 MAINTAINER cliffrowley@gmail.com
 
 USER root
