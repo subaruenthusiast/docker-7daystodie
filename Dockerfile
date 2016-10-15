@@ -1,5 +1,5 @@
 FROM zobees/steamcmd:latest
-MAINTAINER cliffrowley@gmail.com
+MAINTAINER open@mindrunner.de
 
 USER root
 
