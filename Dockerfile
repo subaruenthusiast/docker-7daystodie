@@ -7,7 +7,7 @@ RUN DEBIAN_FRONTEND=noninteractive \
   apt-get install -q -y --no-install-recommends \
   telnet
 
-USER anonymous
+USER steam
 
 ADD steam/bin/server.sh /home/steam/bin/server.sh
 
